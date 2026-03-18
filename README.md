@@ -43,7 +43,8 @@ Aripa/
 ├── sql/
 │   ├── schema.sql
 │   |── mission3.sql
-│   └── MCD - ARIPA.pdf
+│   |── MCD - ARIPA.pdf
+│   └── MCD - ARIPA.png
 ├── php/
 │   └── mission2.php
 └── README.md
