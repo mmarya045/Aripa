@@ -53,7 +53,6 @@ $adhesions = [
 $result = [];
 
 foreach ($adhesions as $adhesion) {
-
     $bateauId     = $adhesion[0];
     $adherentId   = $adhesion[1];
     $anneeAdhesion = $adhesion[2];
@@ -105,5 +104,4 @@ $output = [
     "total_adhesions" => array_sum(array_column($result, "total_bateaux")),
     "adherents"       => array_values($result),
 ];
-
 echo json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) . "\n";
